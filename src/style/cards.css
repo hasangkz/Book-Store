@@ -1,0 +1,57 @@
+ul {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: auto;
+  list-style: none;
+}
+.cards {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+}
+.cards:hover {
+  cursor: pointer;
+  max-width: 70%;
+}
+.cards:hover .image {
+  background-color: red;
+}
+.cards:hover .buy {
+  background-color: #218938;
+  color: #fff;
+}
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+.details h2 {
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+.details h3 {
+  color: grey;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.details h4 {
+  font-weight: bolx;
+  color: rgb(116, 24, 24);
+}
+.details button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: 700;
+  background-color: #fff;
+  color: #218938;
+  outline: none;
+  cursor: pointer;
+  transition: 0.7s;
+  border-radius: 20px;
+}
